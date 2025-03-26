@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="-mode dark-mode dnmgnmsy idc0_343 iujgi feugejhwjxj azimmrf"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    
+
+<title>Archiving Windows 8 Applications</title>
+
+<link rel="canonical" href="https://win8appxarchive.github.io/Win8Archive">
+
+<meta name="robots" content="noindex">
+
+<meta name="description" content="Home
+Made for the Windows 8 Appx Archive Project
+Archiving Windows 8 Applications">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Home
+Made for the Windows 8 Appx Archive Project
+Archiving Windows 8 Applications">
+<meta name="twitter:title" content="Archiving Windows 8 Applications">
+<meta name="twitter:site" content="@rentry_co">
+
+<meta property="og:url" content="https://win8appxarchive.github.io/Win8Archive">
+<meta property="og:description" content="Home
+Made for the Windows 8 Appx Archive Project
+Archiving Windows 8 Applications">
+<meta property="og:title" content="Archiving Windows 8 Applications">
+<meta property="og:type" content="article">
+
+<meta name="twitter:image" content="https://i.imgur.com/bNnygth.png">
+<meta property="og:image" content="https://i.imgur.com/bNnygth.png">
+
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1">
+
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+
+    <!--<script>document.documentElement.classList.toggle("dark-mode", (localStorage.getItem("dark-mode") === null && window.matchMedia("(prefers-color-scheme: dark)").matches || localStorage.getItem("dark-mode") == "true"));</script>-->
+    <script>const script = document.createElement("script"); const hn = window.location.hostname === 'win8appxarchive.github.io' && 'win8appxarchive.github.io' || 'win8appxarchive.github.io'; script.defer = true; script.setAttribute('data-domain', hn + ',win8appxarchive'); document.head.appendChild(script);</script><script defer="defer" data-domain="win8appxarchive.github.io,win8appxarchive"></script>
+
+</head>
+
+<body class="m-0 p-0 body render-metadata">
+
+
+    <div class="sub-body">
+        <div class="container container-smooth">
+            <div class="row no-gutters">
+               
+
+<div class="col-12">
+
+    <div class="row no-gutters">
+        <div class="col-12 long-words">
+            
+
+            <div class="actions">
+                <div class="container">
+                    <div class="item full-contrast" title="High Contrast Mode">
+                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18C10.4633 18 9.06151 17.4223 8 16.4722C6.7725 15.3736 6 13.777 6 12C6 10.223 6.7725 8.62643 8 7.52779C9.06151 6.57771 10.4633 6 12 6V18Z" fill="#83898e"></path><path clip-rule="evenodd" d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20Z" fill="#83898e" fill-rule="evenodd"></path></svg>
+                    </div>
+                    
+                </div>
+				<div class="position-relative"><span style="right: 0; bottom: -9px; background:transparent!important" class="position-absolute btn squared mr-2 mr-sm-0" id="darkModeBtn" title="Dark/light mode"></span></div>
+            </div>
+            <div class="entry-text-container">
+                <div class="entry-text" style="min-height: 15rem;">
+                    <section class="foreground-container"></section>
+                    <article>
+                        
+                        <div><h1 id="archiving-windows-8-applications" class="md-center h-align"><span class="md-align md-center">Archiving Windows 8 Applications</span><a class="headerlink" href="#archiving-windows-8-applications" title="Permanent link" style="display: none;"> </a></h1>
+<p><span class="md-align md-center"><img alt="(Last updated: 27/08/2023 V1.2)" referrerpolicy="same-origin" src="static/bNnygth.jpg" style="" title="(Last updated: 27/08/2023 V1.2)"></span>
+<span class="md-align md-right"><a href="https://win8appxarchive.github.io/">Home</a></span></p>
+<div class="admonition info">
+<p class="admonition-title">Made for the <a class="external" href="https://archive.org/details/Win8AppxArchive" rel="" target="_blank">Windows 8 Appx Archive Project</a>: <a class="external" href="https://discord.gg/xYNvsYYwQ7" rel="" target="_blank">https://discord.gg/xYNvsYYwQ7</a></p>
+</div>
+<h2 id="introduction" class="md-center h-align"><span class="md-align md-center">Introduction</span><a class="headerlink" href="#introduction" title="Permanent link"> </a></h2>
+<p><span class="md-align md-center">Since Windows 8.1's End of Life, you
+ are no longer able to generate APPX and license files directly from the
+ Windows Store. Thus, in order to preserve the full application you need
+ to archive the license <code>.lic</code> file as well with the standard <code>.appx</code> and <code>.cer</code>.</span></p>
+<h2 id="archiving-the-appx-directly-from-microsoft-servers" class="md-center h-align"><span class="md-align md-center">Archiving the .appx directly from Microsoft servers</span><a class="headerlink" href="#archiving-the-appx-directly-from-microsoft-servers" title="Permanent link"> </a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note: The links generated with this method will expire after 24 hours.</p>
+</div>
+<p>To download the application packages directly from Microsoft servers you need the following:</p>
+<ul>
+<li><a href="ms-windows-store:">Microsoft Store</a></li>
+<li><a class="external" href="https://store.rg-adguard.net/" rel="" target="_blank">Online link generator for Microsoft Store</a></li>
+</ul>
+<ol>
+<li>Open the Microsoft Store, find an application you want to archive. I'm using <code>Halo: Spartan Strike</code> as an example here.</li>
+</ol>
+<p><span class="md-align md-center"><img alt="(1)" referrerpolicy="same-origin" src="Win8Archive_files/kOYpQBE.png" style="" title="(1)"></span></p>
+<ol start="2">
+<li>Then, open the charms bar and select the <code>Share</code> option. you must either be logged into Windows with a Microsoft account, or have an email account set up in the Mail app.</li>
+</ol>
+<div class="ntable-wrapper">
+<table class="ntable">
+<thead>
+<tr>
+<th style="text-align: center">‎</th>
+<th style="text-align: center">‎</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center"><span class="md-align md-center"><img alt="(S2n1)" referrerpolicy="same-origin" src="Win8Archive_files/7Npv0f9.png" style="" title="(S2n1)"></span></td>
+<td style="text-align: center"><span class="md-align md-center"><img alt="(S2n2)" referrerpolicy="same-origin" src="Win8Archive_files/g6U0LJM.png" style="" title="(S2n2)"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol start="3">
+<li>Now, go to <a class="external" href="https://store.rg-adguard.net/" rel="" target="_blank">Link generator for Microsoft Store</a>, select <code>CategoryID</code> and <code>Retail</code> and copy the ID you got from the URL.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Keep "URL" if you are using links gotten from the web version of the Microsoft Store.</p>
+</div>
+<p><span class="md-align md-center"><img alt="(3)" referrerpolicy="same-origin" src="Win8Archive_files/ikcR3tO.png" style="" title="(3)"></span></p>
+<ol start="4">
+<li>After that, you have now got a list of packages for that application.</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Win8.x AppxManifest.xml will always contain <code>&lt;OSMinVersion&gt;</code>. <code>6.2.x = 8.0</code> <code>6.3.0 = 8.1</code></p>
+</div>
+<p><em><span class="md-align md-right">Tested on: all platforms</span></em></p>
+<h2 id="archiving-the-appx-via-wsappbak" class="md-center h-align"><span class="md-align md-center">Archiving the .appx via WSAppBak</span><a class="headerlink" href="#archiving-the-appx-via-wsappbak" title="Permanent link"> </a></h2>
+<p>To archive the application and make it installable on every PC running Windows 8/8.1/10/11 you need the following:</p>
+<ul>
+<li><a class="external" href="https://github.com/Wapitiii/WSAppBak/releases/download/v1.0/WSAppBak.zip" rel="" target="_blank">WSAppBak</a></li>
+</ul>
+<ol>
+<li>Open WSAppBack, it will ask you to enter the path of the folder 
+where the app you want to archive is contained. An example could be:<br>
+<code>C:\Program Files\WindowsApps\Microsoft.Bing_1.5.1.259_x64__8wekyb3d8bbwe</code><br>
+<img alt="(1)" referrerpolicy="same-origin" src="Win8Archive_files/tO3B8aZ.png" style="" title="(1)"></li>
+<li>Then, it will ask you to enter the path of the folder where you want
+ to archive the packages. In this case, I have choosen C:\output as my 
+preferred one.<br>
+<img alt="(2)" referrerpolicy="same-origin" src="Win8Archive_files/HTXoVRX.png" style="" title="(2)"></li>
+<li>Last, it will ask you if you want to create a password for the certificate, you can leave it blank if you don't want to.<br>
+<img alt="(3)" referrerpolicy="same-origin" src="Win8Archive_files/AOxpVUU.png" style="" title="(3)"></li>
+<li>After that, you have finally created a copy of your application 
+without the license file. You can now install this copy on every Windows
+ 8 computer with a developer license.<br>
+<img alt="(4)" referrerpolicy="same-origin" src="Win8Archive_files/p7YA5QQ.png" style="" title="(4)"></li>
+</ol>
+<p><em><span class="md-align md-right">Tested on: Windows 8 x64, Windows 8.1 x64</span></em></p>
+<h2 id="archiving-the-application-license" class="md-center h-align"><span class="md-align md-center">Archiving the application license</span><a class="headerlink" href="#archiving-the-application-license" title="Permanent link"> </a></h2>
+<div class="admonition danger">
+<p class="admonition-title">This requires disabling Windows Defender as the tools used will get flagged as: <strong>HackTool:Win32/Appcrack</strong></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">These instructions were tested only on Windows 8 x64. This section of guide might not work for Windows 8.1.</p>
+</div>
+<p>To make sure your paid application will still work on Windows 8 you need the following:</p>
+<ul>
+<li><a class="external" href="https://github.com/AndnixSH/wsservice_crk/raw/main/release/wscrack_anycpu/TokensExtractor.exe" rel="" target="_blank">WSService tokens extractor</a></li>
+<li>wsll <a class="external" href="https://github.com/AndnixSH/wsservice_crk/raw/main/release/wscrack_64/wsll.exe" rel="" target="_blank">x64</a>/<a class="external" href="https://github.com/AndnixSH/wsservice_crk/raw/main/release/wscrack_32/wsll.exe" rel="" target="_blank">x86</a></li>
+</ul>
+<ol>
+<li>Open WSService tokens extrator, select the app whose license you want to archive and click on the <code>View</code> button. An example of app could be:<br>
+<code>Microsoft.XboxOneSmartGlass_8wekyb3d8bbwe (Full)</code><br>
+<span class="md-align md-center"><img alt="(1)" referrerpolicy="same-origin" src="Win8Archive_files/dFhKPJZ.png" style="" title="(1)"></span></li>
+<li>Once you have done that, click on the <code>Save original</code> button.<br>
+<span class="md-align md-center"><img alt="(2)" referrerpolicy="same-origin" src="Win8Archive_files/ahDzD8w.png" style="" title="(2)"></span></li>
+<li>Then, it will ask you where you want to save the <code>.lic</code> file. In this case, I have chosen C:\ as my preferred location.<br>
+<span class="md-align md-center"><img alt="(3)" referrerpolicy="same-origin" src="Win8Archive_files/nebijYP.png" style="" title="(3)"></span></li>
+<li>After that, you have finally created a copy of your application 
+license. To install it on any PC, you need to use wsll with the 
+following command:<br>
+<div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="wsll.exe License.lic">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-1-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-1-1"><a id="L-1-1" name="L-1-1"></a>wsll.exe License.lic
+</span></pre></div>
+</td></tr></tbody></table>
+</div>
+</li>
+</ol>
+<p><span class="md-align md-center"><img alt="(4)" referrerpolicy="same-origin" src="Win8Archive_files/YAQSy7s.png" style="" title="(4)"></span></p>
+<ol start="5">
+<li>Finally, you have to install the license again with WSService tokens extractor.<br>
+<span class="md-align md-center"><img alt="(5)" referrerpolicy="same-origin" src="Win8Archive_files/PNswcVR.png" style="" title="(5)"></span></li>
+</ol>
+<p>You've now successfully saved the license file of that application 
+and managed to install it on a different PC/Installation of Windows 8.</p>
+<p><em><span class="md-align md-right">Tested on: Windows 8 x64</span></em></p></div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="row no-gutters">
+    <div class="col-12 px-0">
+        <div class="text-muted">
+            <div class="float-right text-right pr-2 pr-sm-0">
+                Pub: 19 Jul 2023 17:39 <span class="d-none d-sm-inline">UTC</span><br>
+                Last Update: 26 Mar 2025 <br>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+                <div class="text-center w-100 mb-3">
+                    <hr class="my-2 basement-hr">
+
+                </div>
+                
+                
+
+            </div>
+        </div>
+
+        <script src="static/jquery.min.js"></script>
+        <script src="static/bootstrap.min.js"></script>
+        
+    </div>
+
+
+
+</body>
+</html>

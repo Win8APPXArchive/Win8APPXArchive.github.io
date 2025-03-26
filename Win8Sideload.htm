@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="-mode dark-mode edivuaae idc0_343 qgkhnaoazd"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    
+
+<title>Sideloading Windows 8 Applications</title>
+
+<link rel="canonical" href="https:///Win8APPXArchive.github.io/Win8Sideload">
+
+<meta name="robots" content="noindex">
+
+<meta name="description" content="Home
+Made for the Windows 8 Appx Archive Project
+Sideloading Windows 8 Applications">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Home
+Made for the Windows 8 Appx Archive Project
+Sideloading Windows 8 Applications">
+<meta name="twitter:title" content="Sideloading Windows 8 Applications">
+<meta name="twitter:site" content="@rentry_co">
+
+<meta property="og:url" content="https:///Win8APPXArchive.github.io/Win8Sideload">
+<meta property="og:description" content="Home
+Made for the Windows 8 Appx Archive Project
+Sideloading Windows 8 Applications">
+<meta property="og:title" content="Sideloading Windows 8 Applications">
+<meta property="og:type" content="article">
+
+<meta name="twitter:image" content="https://i.imgur.com/bNnygth.png">
+<meta property="og:image" content="https://i.imgur.com/bNnygth.png">
+
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1">
+
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+
+    <!--<script>document.documentElement.classList.toggle("dark-mode", (localStorage.getItem("dark-mode") === null && window.matchMedia("(prefers-color-scheme: dark)").matches || localStorage.getItem("dark-mode") == "true"));</script>-->
+    <script>const script = document.createElement("script"); const hn = window.location.hostname === 'win8appxarchive.github.io' && 'win8appxarchive.github.io' || 'win8appxarchive.github.io'; script.defer = true; script.setAttribute('data-domain', hn + ',win8appxarchive'); document.head.appendChild(script);</script><script defer="defer" data-domain="win8appxarchive.github.io,win8appxarchive"></script>
+
+</head>
+
+<body class="m-0 p-0 body render-metadata">
+
+
+    <div class="sub-body">
+        <div class="container container-smooth">
+            <div class="row no-gutters">
+                
+<div class="col-12">
+
+
+
+
+
+    <div class="row no-gutters">
+        <div class="col-12 long-words">
+            
+
+            <div class="actions">
+                <div class="container">
+                    <div class="item full-contrast" title="High Contrast Mode">
+                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18C10.4633 18 9.06151 17.4223 8 16.4722C6.7725 15.3736 6 13.777 6 12C6 10.223 6.7725 8.62643 8 7.52779C9.06151 6.57771 10.4633 6 12 6V18Z" fill="#83898e"></path><path clip-rule="evenodd" d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20Z" fill="#83898e" fill-rule="evenodd"></path></svg>
+                    </div>
+                    
+                </div>
+				<div class="position-relative"><span style="right: 0; bottom: -9px; background:transparent!important" class="position-absolute btn squared mr-2 mr-sm-0" id="darkModeBtn" title="Dark/light mode"></span></div>
+            </div>
+            <div class="entry-text-container">
+                <div class="entry-text" style="min-height: 15rem;">
+                    <section class="foreground-container"></section>
+                    <article>
+                        
+                        <div><h1 id="sideloading-windows-8-applications" class="md-center h-align"><span class="md-align md-center">Sideloading Windows 8 Applications</span><a class="headerlink" href="#sideloading-windows-8-applications" title="Permanent link" style="display: none;"> </a></h1>
+<p><span class="md-align md-center"><img alt="(Last updated: 20/02/2025 V2)" referrerpolicy="same-origin" src="static/bNnygth.jpg" style="" title="(Last updated: 20/02/2025 V2)"></span>
+<span class="md-align md-right"><a href="https:///Win8APPXArchive.github.io/">Home</a></span></p>
+<div class="admonition note">
+<p class="admonition-title">Original guide was made by <a class="external" href="https://www.reddit.com/user/YavBav09/" rel="" target="_blank">YavBav09</a>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Made for the <a class="external" href="https://archive.org/details/Win8AppxArchive" rel="" target="_blank">Windows 8 Appx Archive Project</a>: <a class="external" href="https://discord.gg/xYNvsYYwQ7" rel="" target="_blank">https://discord.gg/xYNvsYYwQ7</a></p>
+</div>
+<h2 id="getting-a-developer-license-via-tsforge-all-skus-except-core">Getting a developer license via TSForge (<em>All SKUs (Except core)</em>)<a class="headerlink" href="#getting-a-developer-license-via-tsforge-all-skus-except-core" title="Permanent link"> </a></h2>
+<p>TSForge is a tool included in massgrave's Windows activation tool. Which can be found <a class="external" href="https://massgrave.dev/" rel="" target="_blank">here</a> or you can run this powershell code to automatically download it.</p>
+<div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="irm https://get.activated.win | iex">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-1-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-1-1"><a id="L-1-1" name="L-1-1"></a><span class="nb">irm </span><span class="n">https</span><span class="p">://</span><span class="n">get</span><span class="p">.</span><span class="n">activated</span><span class="p">.</span><span class="n">win</span> <span class="p">|</span> <span class="nb">iex</span>
+</span></pre></div>
+</td></tr></tbody></table>
+</div>
+<p><span class="md-align md-center"><img alt="Windows Activation Tool" referrerpolicy="same-origin" src="Win8Sideload_files/twgd2j.png" style="" title="Windows Activation Tool"></span>
+<span class="md-align md-center"><img alt="." referrerpolicy="same-origin" src="Win8Sideload_files/8miplp.png" style="" title="."></span></p>
+<p>After activating APPXLOB you can check the state of the activation by running</p>
+<div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="slmgr /dlv">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-2-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-2-1"><a id="L-2-1" name="L-2-1"></a>slmgr /dlv
+</span></pre></div>
+</td></tr></tbody></table>
+</div>
+<p>It should look like something like this:</p>
+<p><img alt="slmgr window" referrerpolicy="same-origin" src="Win8Sideload_files/2zeyen.png" style="width: 40%; height: 40%" title="slmgr window"></p>
+<p>Now, open Group policy. Go to: <code>Administrative Templates\Windows Components\App Package Deployment</code></p>
+<p>Enable the following settings:</p>
+<ul>
+<li>Allow development of Windows Store apps without installing a developer license</li>
+<li>Allow all trusted apps to install</li>
+</ul>
+<p><span class="md-align md-center"><img alt="Paths" referrerpolicy="same-origin" src="Win8Sideload_files/zBG3ISa.png" style="" title="Paths"></span>
+<span class="md-align md-center"><img alt="." referrerpolicy="same-origin" src="Win8Sideload_files/qnG3Glx.png" style="" title="."></span></p>
+<h3 id="making-a-backup-of-your-app-via-wsappbak">Making a backup of your app via <a class="external" href="https://github.com/Wapitiii/WSAppBak/releases/download/v1.0/WSAppBak.zip" rel="" target="_blank">WSAppBak</a><a class="headerlink" href="#making-a-backup-of-your-app-via-wsappbak" title="Permanent link"> </a></h3>
+<p>The app is now installed, but you may notice that if you launch it, 
+it won't work due to a missing license. What you need to do is to go to <code>C:\Program Files\WindowsApps</code>.
+ This directory is hidden by default, so you might need to type the path
+ out or show hidden files. You won't be granted access at first, so you 
+should change ownership of the folder to your account.</p>
+<p>After that, find the folder where the app resides and copy it's path. <br>
+<code>Example: C:\Program Files\WindowsApps\Microsoft.RemoteDesktop_6.2.9200.20523_neutral__8wekyb3d8bbwe</code></p>
+<p>Start WSAppbak, paste the folder path into the input folder, paste a 
+different folder path for the output folder. After it has finished, you 
+have the newly created <code>.appx</code> and certificate<code>.cer</code>.
+ Install the certificate to the local machine &gt; trusted root 
+certificates. Delete the previously installed app, after that install 
+the newly generated appx.</p>
+<h2 id="installing-apps">Installing apps<a class="headerlink" href="#installing-apps" title="Permanent link"> </a></h2>
+<p>Open PowerShell and use this command:<br>
+</p><div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="Add-AppxPackage path\name.appx/appxbundle">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-3-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-3-1"><a id="L-3-1" name="L-3-1"></a><span class="nb">Add-AppxPackage</span> <span class="n">path</span><span class="p">\</span><span class="n">name</span><span class="p">.</span><span class="n">appx</span><span class="p">/</span><span class="n">appxbundle</span>
+</span></pre></div>
+</td></tr></tbody></table>
+</div>
+<h2 id="getting-a-developer-license-all-skus"><del>Getting a developer license (<em>All SKUs</em>)</del><a class="headerlink" href="#getting-a-developer-license-all-skus" title="Permanent link"> </a></h2>
+<div class="admonition warning">
+<p class="admonition-title">This method no longer works due to the store shutdown.</p>
+</div>
+<p><del>Open PowerShell. Get a Windows developer registration using this command: </del></p>
+<p><del><code>pwsh
+Show-WindowsDeveloperLicenseRegistration</code> </del></p>
+<p><del>If it doesn't work the first time, try a few more times. This 
+license has a time limit and needs to be renewed to keep using the 
+sideloaded apps, you will need to run this command again to renew it.</del></p>
+<div class="admonition note">
+<p class="admonition-title"><del>If you have Windows 8.0 you need to install <strong>KB3140245</strong> <a class="external" href="https://mega.nz/folder/ExhDEbDA#pUhzXKVp5-hgzvylW_btfQ/folder/t8QXAY4D" rel="" target="_blank">x64</a>/<a class="external" href="https://mega.nz/folder/ExhDEbDA#pUhzXKVp5-hgzvylW_btfQ/folder/p0IFQIiB" rel="" target="_blank">x86</a> for TLS 1.1/1.2 support + additional fixes, then have windows at security update level <strong>2019-12</strong>. You can find Post EOL Updates for 8.0 <a class="external" href="https://mega.nz/folder/ExhDEbDA#pUhzXKVp5-hgzvylW_btfQ" rel="" target="_blank">here</a>. </del></p>
+</div></div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="row no-gutters">
+    <div class="col-12 px-0">
+        <div class="text-muted">
+            <div class="float-right text-right pr-2 pr-sm-0">
+                Pub: 19 Jul 2023 14:41 <span class="d-none d-sm-inline">UTC</span><br>
+                Last Update: 26 Mar 2025 <br>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+                <div class="text-center w-100 mb-3">
+                    <hr class="my-2 basement-hr">
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="static/jquery.min.js"></script>
+        <script src="static/bootstrap.min.js"></script>
+        
+    </div>
+
+
+
+</body></html>
